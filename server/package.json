@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "watch": "ts-node-dev --rs -- src/main.ts",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vscode-languageserver": "^7.0.0",
+    "vscode-ws-jsonrpc": "^0.2.0",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "@types/ws": "^8.2.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsc-watch": "^5.0.3"
+  }
+}

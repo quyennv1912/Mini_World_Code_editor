@@ -1,0 +1,17 @@
+{
+  "name": "code-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run watch -w ./server",
+    "client": "npm run dev -w ./client"
+  },
+  "workspaces": [
+    "./server",
+    "./client"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
